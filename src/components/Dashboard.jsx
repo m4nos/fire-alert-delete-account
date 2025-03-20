@@ -48,6 +48,8 @@ function Dashboard() {
         // delete user from firebase auth
         await deleteUser(user);
 
+        alert("Account deleted successfully.");
+
         navigate("/");
       } catch (error) {
         console.error("Error deleting account:", error);

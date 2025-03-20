@@ -5,7 +5,7 @@ import { FirebaseAuth } from "../firebase";
 import { useAuth } from "./AuthProvider";
 
 function Login() {
-  const [email, setEmail] = useState("ben.jonson61@yahoo.com");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
